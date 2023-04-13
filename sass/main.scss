@@ -1,0 +1,26 @@
+$white: #fff;
+$black: #000;
+$grey: #444;
+$lightGray: #777;
+$darkGray: #222;
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Fraunces', serif;
+    font-weight: 200;
+    color: $lightGray;
+    padding: 3rem; 
+    box-sizing: border-box;
+}
+
+
